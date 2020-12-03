@@ -1,0 +1,83 @@
+*{
+	padding: 0px;
+	margin:0px;
+	font-family: sans-serif;
+}
+body{
+	background:linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)),url(https://t4.ftcdn.net/jpg/03/45/38/95/360_F_345389511_GoDJ37kuiuYuJikcEUpFDMBYDaEPw7s3.jpg);
+}
+.profile{
+	display: grid;
+	grid-template-columns: repeat(5,1fr);
+	grid-template-rows: repeat(10,1fr);
+	
+
+}
+.profile-box{
+	grid-column: 3/4;
+	grid-row:3/8;
+
+	
+
+	height: 50vh;
+	width: 39vh;
+	border:3px solid black;
+	padding: 20px;
+
+	text-align: center;
+
+	
+
+
+}
+.profile-box ul {
+	list-style-type: none;
+
+
+
+}
+h1{
+	font-family: 'Oswald', sans-serif;
+	font-size: 6vh;
+
+}
+h1:hover{
+	color: white;
+}
+
+
+
+#content-1{
+	padding-top: 5vh;
+
+}
+#content-2{
+	padding-top:3vh;
+}
+#content-3{
+	padding-top:7vh;
+}
+#register:hover{
+	color:white;
+}
+
+div[id^="content"]{
+	padding-top: 8vh;
+}
+#submit{
+	font-size:2vh;
+	padding: 0vh 1vw;
+}
+#remember-me{
+	font-size:1.7vh;
+	text-decoration: underline;
+}
+#remember-me:hover{
+	color:blue;
+}
+#input{
+	font-family: 'Anton', sans-serif;
+	padding: 1vh 6vh;
+	outline: none;
+
+}
